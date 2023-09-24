@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 10px;
+  height: 30px;
+}
+
+.logo {
+  max-width: 100%; /* 최대 너비도 80%로 설정 */
+  height: 120%;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+}
+
+.person {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.loginLink {
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+/*navigation*/
+.navigation {
+  position: relative; /* 상대적 위치 설정 */
+}
+
+.banner {
+  width: 100%; /* 가로로 꽉 채우기 */
+  height: 30vh; /* 세로로 화면 높이의 30% 차지 */
+  object-fit: cover; /* 이미지 비율 유지하며 화면 채우기 */
+}
+
+.banner-text {
+  position: absolute; /* 절대 위치 설정 */
+  top: 50%; /* 세로 중앙 정렬 */
+  left: 50%; /* 가로 중앙 정렬 */
+  transform: translate(-50%, -50%); /* 가운데 정렬을 위한 변환 */
+  color: #fff; /* 텍스트 색상 설정 */
+  font-size: 24px; /* 텍스트 크기 설정 */
+  font-weight: bold; /* 텍스트 굵기 설정 */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 텍스트 그림자 설정 */
+}

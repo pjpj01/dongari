@@ -10,7 +10,9 @@ function HeaderComponent(props) {
       <div className="header">
         <img src={logo} alt="Yonsei Logo" className="logo" />
         <div className="login-container">
-          <img src={person} alt="person" className="person" />
+          <button className="myInfo">
+            <img src={person} alt="person" className="person" />
+          </button>
           <button className="loginLink">로그인</button>
         </div>
       </div>

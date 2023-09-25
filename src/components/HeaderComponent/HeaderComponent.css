@@ -5,7 +5,7 @@
   background-color: #1c1c1c;
   color: #fff;
   padding: 10px;
-  height: 30px;
+  height: 3vh; /*화면 3%차지 */
 }
 
 .logo {
@@ -45,12 +45,17 @@
 /*navigation*/
 .navigation {
   position: relative; /* 상대적 위치 설정 */
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 20vh;
 }
 
 .banner {
-  width: 100%; /* 가로로 꽉 채우기 */
-  height: 30vh; /* 세로로 화면 높이의 30% 차지 */
-  object-fit: cover; /* 이미지 비율 유지하며 화면 채우기 */
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+  margin: 0; /* margin 속성을 추가해서 모든 마진을 0으로 설정 */
+  padding: 0; /* padding 속성도 추가해서 모든 패딩을 0으로 설정 */
 }
 
 .banner-text {
@@ -62,4 +67,6 @@
   font-size: 24px; /* 텍스트 크기 설정 */
   font-weight: bold; /* 텍스트 굵기 설정 */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 텍스트 그림자 설정 */
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }

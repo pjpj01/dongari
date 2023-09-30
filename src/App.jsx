@@ -5,6 +5,7 @@ import SignupPage from "./pages/SignupPage";
 
 function App() {
   return (
+    /* 주석 지울 것 */
     <Router>
       <div className="App">
         <Routes>

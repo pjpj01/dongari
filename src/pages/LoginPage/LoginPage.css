@@ -1,6 +1,6 @@
 .container {
   background-color: #1c1c1c;
-  height: 80vh;
+  height: 100vh;
   padding-top: 0px;
   position: relative;
 }
@@ -17,7 +17,7 @@
 
 .login {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 10px;
   font-weight: bold;
 }
@@ -26,17 +26,71 @@
   color: #9b9b9b;
   padding-top: 0px;
   margin-top: 0px;
-  font-size: 13px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
 .id-input {
   background-color: #141414;
   color: #9b9b9b;
   border: none;
+  width: 360px;
+  height: 55px;
+  margin-bottom: 23px;
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 10px;
 }
 
 .pw-input {
   background-color: #141414;
   color: #9b9b9b;
+  border: none;
+  width: 360px;
+  height: 55px;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* 아이디저장하기 */
+
+.save-container {
+  width: 340px;
+  margin-top: 15px;
+  color: #9b9b9b;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.login-click {
+  width: 360px;
+  height: 55px;
+  margin-top: 15px;
+  color: #fff;
+  background-color: rgb(78, 85, 149, 0.3);
+  border: none;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.container1 {
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.find {
+  color: #9b9b9b;
+  background-color: transparent;
+  border: none;
+}
+
+.signup {
+  color: #9b9b9b;
+  background-color: transparent;
   border: none;
 }

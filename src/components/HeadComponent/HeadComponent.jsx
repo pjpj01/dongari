@@ -1,5 +1,5 @@
 import React from "react";
-import "./HeaderComponent.css"; // HeaderComponent.css 파일을 import
+import "./HeadComponent.css"; // HeaderComponent.css 파일을 import
 import logo from "./yonsei logo 1.png";
 import person from "./person.png";
 import banner from "./yonsei_header.png";

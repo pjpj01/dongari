@@ -47,7 +47,7 @@ const Button = styled.button`
   width: 350px;
   height: 50px;
   font-weight: 500px;
-  margin-top: 50px;
+  margin-top: 10px;
   color: #fff;
   font-size: 18px;
 `;
@@ -103,6 +103,12 @@ text-align : center;
 
 
 `;
+const Privacy = styled.div`
+  color: #9b9b9b;
+  font-size: 13px;
+  margin-bottom: 0px;
+`;
+
 
 export {
   Info,
@@ -117,4 +123,6 @@ export {
   IdInput,
   IdSet,
   Comments,
+  Privacy,
+
 };

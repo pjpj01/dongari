@@ -32,7 +32,7 @@ function BookingPage() {
       {/* 예약 완료 팝업 창 */}
       {isPopupVisible && (
         <div className="popup">
-          <p>예약이 완료되었습니다!</p>
+          <p>예약이 신청되었습니다. 예약 승인/반려는 마이페이지에서 확인 가능합니다. 예약 취소도 마이페이지에서 해주세요.</p>
           <button onClick={closePopup}>닫기</button>
         </div>
       )}

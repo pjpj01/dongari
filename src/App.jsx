@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
-import BookingPage from "./pages/BookingPage";
+import BookingPage from "./pages/BookingPage/BookingPage";
 import HeaderComponent from "./components/HeadComponent/HeadComponent";
 import "./App.css";
 import MyPage from "./pages/MyPage";
+import AdminPage from "./pages/AdminPage";
 
 function App() {
   //로그인 상태 확인
@@ -30,6 +31,7 @@ function App() {
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/booking" element={<BookingPage />} />
           <Route path="/mypage" element={<MyPage />} />
+          <Route path="/adminpage" element={<AdminPage />} />
         </Routes>
       </div>
     </Router>

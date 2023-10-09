@@ -3,17 +3,21 @@ import "./HeadComponent.css"; // HeaderComponent.css 파일을 import
 import logo from "./yonsei logo 1.png";
 import person from "./person.png";
 import banner from "./yonsei_header.png";
+import { Link } from 'react-router-dom';
 
 function HeaderComponent(props) {
   return (
     <div>
       <div className="header">
-        <img src={logo} alt="Yonsei Logo" className="logo" />
+      <Link to="/"><img src={logo} alt="Yonsei Logo" className="logo" /></Link>
+
         <div className="login-container">
+        <Link to='/booking'>시설대관</Link>
+        <Link to='/adminpage'>관리자페이지</Link>  
           <button className="myInfo">
-            <img src={person} alt="person" className="person" />
+          <Link to='/mypage'><img src={person} alt="person" className="person" /></Link>
           </button>
-          <button className="loginLink">로그인</button>
+          <Link to='/signup'>회원가입</Link>
         </div>
       </div>
       <div className="navigation">

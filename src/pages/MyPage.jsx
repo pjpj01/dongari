@@ -8,6 +8,7 @@ function MyPage() {
     <div>
       <HeaderComponent headerText="마이페이지" bannerText="마이페이지" />
       <InfoComponent />
+      
       <FooterComponent/>
 
     </div>
